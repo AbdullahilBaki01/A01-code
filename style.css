@@ -18,6 +18,7 @@
     color: black;
     border: 1px solid white;
 }
+/* header section starts here */
 header{
     padding-top: 16px;
     padding-left: 120px;
@@ -49,6 +50,9 @@ nav .menu ul a:hover{
     border-radius: 5px;
     padding: 0 5px;
 }
+/* Header section ends here */
+
+/* Banner section starts here */
 #banner{
     background-image: url(./image/hero-bg.png);
     background-repeat: no-repeat;
@@ -61,7 +65,7 @@ nav .menu ul a:hover{
     padding-right: 120px;
 }
 #banner #first-btn{
-    background-color: #ffffff;
+    background-color: white;
     color: #30B868;
     font-size: 16px;
     border-radius: 20px;
@@ -91,8 +95,9 @@ nav .menu ul a:hover{
     align-items: center;
     text-align: center;
     margin: 0 auto;
-
 }
+/* Banner section ends here */
+
 /* Notes section starts here */
 #notes{
     justify-content: center;
@@ -168,6 +173,7 @@ nav .menu ul a:hover{
 }
 #brain ul{
     padding-top: 40px;
+    list-style: none;
     
 }
 #brain ul li{
@@ -220,11 +226,14 @@ footer .footer-container{
     padding-left: 120px;
     padding-right: 120px;
 }
+footer .footer-container .link .social{
+    color: #ffffff;
+}
 footer .link{
     display: flex;
     justify-content: space-between;
 }
-footer .footer-container i{
+footer .footer-container i {
     color: #f7f6f2;
 }
 footer .footer-container .copywrite{
