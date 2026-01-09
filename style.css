@@ -16,6 +16,7 @@
 .btn:hover{
     background-color: yellow;
     color: black;
+    border: 1px solid white;
 }
 header{
     padding-top: 16px;
@@ -31,7 +32,7 @@ nav{
 }
 nav .menu ul{
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     list-style: none;
     gap: 24px;
 }
@@ -92,6 +93,7 @@ nav .menu ul a:hover{
     margin: 0 auto;
 
 }
+/* Notes section starts here */
 #notes{
     justify-content: center;
     text-align: center;
@@ -120,6 +122,12 @@ nav .menu ul a:hover{
     box-shadow: 2px 5px 5px gray;
     padding: 24px;
     padding-bottom: 0;
+    border-radius: 5px;
+}
+#notes .card-container .card:hover{
+    background-color: #469165;
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
 #notes .card-container .card img{
@@ -132,3 +140,37 @@ nav .menu ul a:hover{
     padding-top: 16px;
     padding-bottom: 16px;
 }
+/* Notes section ends here */
+
+
+
+/* Brain section starts here */
+#brain{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 120px;
+    gap: 60px;
+}
+#brain #caption{
+    color: #30B868;
+    line-height: 20px;
+}
+#brain h1{
+    font-size: 48px;
+    color: #001931;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+#brain   #p2{
+    color: #627382;
+}
+#brain ul{
+    padding-top: 40px;
+    
+}
+#brain ul li{
+    padding-bottom: 16px;
+}
+/* Brain section ends here */
