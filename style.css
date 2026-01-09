@@ -211,4 +211,27 @@ nav .menu ul a:hover{
 
 /* footer section strats here */
 
+footer{
+background-color: #001931;
+}
+footer .footer-container{
+    padding-top: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+footer .link{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-container i{
+    color: #f7f6f2;
+}
+footer .footer-container .copywrite{
+    text-align: center;
+    font-size: 16px;
+    color: #f7f6f2;
+
+}
+
 /* footer section ends here */
