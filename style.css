@@ -174,3 +174,41 @@ nav .menu ul a:hover{
     padding-bottom: 16px;
 }
 /* Brain section ends here */
+
+/* think section Starts here  */
+#think{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#think .think-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    background-color: #f7f6f2;
+}
+#think .think-container h1{
+    font-size: 40px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#think #think-p1{
+    color: #627382;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+#think #think-p2{
+    font-size: 16px;
+    padding-top: 16px;
+}
+/* think section ends here  */
+
+
+/* footer section strats here */
+
+/* footer section ends here */
